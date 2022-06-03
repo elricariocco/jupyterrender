@@ -17,7 +17,7 @@ c.ServerApp.open_browser = False
 # ipython -c "from notebook.auth import passwd; passwd()"
 c.ServerApp.password = u''
 c.ServerApp.token = ''
-c.ServerApp.port = int(os.environ.get("PORT", 80))
+c.ServerApp.port = int(os.environ.get("PORT", 10000))
 c.ServerApp.allow_root = True
 c.ServerApp.allow_password_change = True
-c.ConfigurableHTTPProxy.command = ['configurable-http-proxy', '--redirect-port', '80']
+c.ConfigurableHTTPProxy.command = ['configurable-http-proxy', '--redirect-port', '10000']
