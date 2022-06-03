@@ -12,7 +12,7 @@ c.ServerApp.allow_origin = '*' # put your public IP Address here
 c.ServerApp.ip = '*'
 c.ServerApp.allow_root = True
 c.ServerApp.allow_remote_access = True
-c.ServerApp.open_browser = False
+c.ServerApp.open_browser = True
 
 # ipython -c "from notebook.auth import passwd; passwd()"
 c.ServerApp.password = u''
