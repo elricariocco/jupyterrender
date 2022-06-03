@@ -9,7 +9,7 @@ c.IPKernelApp.pylab = 'inline'  # if you want plotting support always in your no
 # Notebook config
 c.ServerApp.notebook_dir = 'nbs'
 c.ServerApp.allow_origin = '*' # put your public IP Address here
-c.ServerApp.ip = '*'
+c.ServerApp.ip = '0.0.0.0'
 c.ServerApp.allow_root = True
 c.ServerApp.allow_remote_access = True
 c.ServerApp.open_browser = True
